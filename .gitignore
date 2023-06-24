@@ -36,3 +36,4 @@
  *.apk
  *.unitypackage
 *.meta
+*.physicsMaterial2D
