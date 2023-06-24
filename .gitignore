@@ -38,7 +38,5 @@
 *.meta
 *.physicsMaterial2D
 *.unity
-tetris/Library/AnnotationManager
-tetris/Library/ArtifactDB
-tetris/Library/Artifacts/00/0000f9e138d5f0699ace233517bc51bd
-tetris/Library/Artifacts/00/0033b3b9587d0bd18929762b859d1ce2
+tetris/Library
+*.graph
