@@ -8,9 +8,17 @@ public class Bar : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    private Vector3 initialPosition;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        initialPosition = transform.position;
+    }
+
+    private void ResetBar()
+    {
+        transform.position = initialPosition;
     }
 
     private void Update()
@@ -18,5 +26,11 @@ public class Bar : MonoBehaviour
         float moveHorizontal = Input.GetAxis("Horizontal");
         Vector2 movement = new Vector2(moveHorizontal, 0f) * moveSpeed;
         rb.velocity = movement;
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            ResetBar();
+        }
+
     }
 }
