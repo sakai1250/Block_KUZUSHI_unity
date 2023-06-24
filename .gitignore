@@ -39,4 +39,9 @@
 *.physicsMaterial2D
 *.unity
 tetris/Library
+tetris/Logs
+tetris/Packages
+tetris/Projectsettings
+tetris/Temp
+tetris/UserSettings
 *.graph
