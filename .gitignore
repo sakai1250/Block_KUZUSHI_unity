@@ -44,5 +44,7 @@ tetris/Packages
 tetris/Projectsettings
 tetris/Temp
 tetris/UserSettings
+tetris/Assets/TextMesh Pro
 *.graph
 *.prefab
+*.pdf
