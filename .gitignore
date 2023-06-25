@@ -37,7 +37,6 @@
  *.unitypackage
 *.meta
 *.physicsMaterial2D
-*.unity
 tetris/Library
 tetris/Logs
 tetris/Packages
